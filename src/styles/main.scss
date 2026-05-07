@@ -1,0 +1,47 @@
+:root {
+  --bg-color: #000b1d;
+  --panel-bg: rgba(0, 20, 50, 0.8);
+  --border-color: #004a8d;
+  --text-primary: #ffffff;
+  --text-secondary: #00d2ff;
+  --accent-color: #00a2ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  user-select: none;
+}
+
+/* 隐藏 Cesium 版权信息 */
+.cesium-viewer-bottom {
+  display: none !important;
+}
+
+/* 全局滚动条样式 */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Element Plus 科技风重置 */
+.el-card {
+  background-color: var(--panel-bg) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+.el-button--primary {
+  background-color: var(--accent-color) !important;
+  border-color: var(--accent-color) !important;
+}

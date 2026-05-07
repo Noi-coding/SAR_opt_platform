@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-001",
+        "location": "四川省凉山州某林区",
+        "area": 120,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "轻微"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.26, 27.88]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-002",
+        "location": "四川省凉山州某林区",
+        "area": 85,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "正常"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.27, 27.89]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-003",
+        "location": "云南省昭通市某山谷",
+        "area": 150,
+        "isUnderForest": false,
+        "riskLevel": "中",
+        "damageLevel": "正常"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.71, 27.33]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-004",
+        "location": "贵州省毕节市某林缘",
+        "area": 95,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "中度损毁"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.28, 27.30]
+      }
+    }
+  ]
+}
