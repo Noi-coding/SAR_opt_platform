@@ -38,8 +38,16 @@ const currentScene = ref('fire') // fire, rain, earthquake
 const selectedHouse = ref(null)
 const mapRef = ref(null)
 
-// 提供场景状态给子组件
+const layerState = ref({
+  optical: true,
+  sar: false,
+  houses: true,
+  heatmap: false
+})
+
+// 提供状态给子组件
 provide('currentScene', currentScene)
+provide('layerState', layerState)
 
 const handleMenuClick = (menuKey: string) => {
   console.log('Menu clicked:', menuKey)
@@ -68,20 +76,28 @@ provide('onHouseSelected', onHouseSelected)
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
-  background: rgba(0, 20, 50, 0.7);
+  background: rgba(0, 20, 50, 0.4);
   padding: 5px;
   border-radius: 4px;
-  border: 1px solid #004a8d;
+  border: 1px solid rgba(0, 74, 141, 0.3);
 }
 
 :deep(.el-radio-button__inner) {
-  background: transparent;
-  color: #fff;
-  border-color: #004a8d;
+  background: transparent !important;
+  color: #fff !important;
+  border: 1px solid transparent !important;
+  transition: all 0.3s;
 }
 
 :deep(.el-radio-button__original-radio:checked + .el-radio-button__inner) {
-  background: #00a2ff;
-  border-color: #00a2ff;
+  background: #00a2ff !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  border-radius: 4px !important;
+}
+
+:deep(.el-radio-button:first-child .el-radio-button__inner),
+:deep(.el-radio-button:last-child .el-radio-button__inner) {
+  border-radius: 4px !important;
 }
 </style>

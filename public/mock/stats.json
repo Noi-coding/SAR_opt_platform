@@ -1,0 +1,23 @@
+{
+  "fire": {
+    "affectedHouses": 42,
+    "forestHouses": 28,
+    "highRiskCount": 15,
+    "damageLevel": "中等",
+    "aiInsight": "SAR 引擎探测到烟雾下方存在 5 处隐匿火点，建议加强西南侧阻燃隔离。"
+  },
+  "rain": {
+    "affectedHouses": 65,
+    "forestHouses": 12,
+    "highRiskCount": 24,
+    "damageLevel": "严重",
+    "aiInsight": "基于 SAR 反演 DEM，低洼河谷区存在山洪暴发风险，建议撤离林下低层房屋住户。"
+  },
+  "earthquake": {
+    "affectedHouses": 18,
+    "forestHouses": 35,
+    "highRiskCount": 42,
+    "damageLevel": "极重",
+    "aiInsight": "D-InSAR 捕捉到地表形变加速，滑坡隐患点已增至 12 处，AI 已自动锁定重点排查名单。"
+  }
+}

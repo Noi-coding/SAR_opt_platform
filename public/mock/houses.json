@@ -1,0 +1,1605 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-001",
+        "location": "西南山区-区域8",
+        "area": 149,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "18.75mm",
+        "sensitivity": "36%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.21570758077678,
+          27.85901789329428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-002",
+        "location": "西南山区-区域4",
+        "area": 183,
+        "isUnderForest": false,
+        "riskLevel": "高",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "12.99mm",
+        "sensitivity": "83%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24222620750436,
+          27.897741009322914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-003",
+        "location": "西南山区-区域9",
+        "area": 179,
+        "isUnderForest": false,
+        "riskLevel": "中",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "15.29mm",
+        "sensitivity": "50%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.35089847324747,
+          27.84465618544339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-004",
+        "location": "西南山区-区域9",
+        "area": 106,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "19.06mm",
+        "sensitivity": "71%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24493075664074,
+          27.98370753950147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-005",
+        "location": "西南山区-区域3",
+        "area": 107,
+        "isUnderForest": false,
+        "riskLevel": "极高",
+        "damageLevel": "正常",
+        "historyDeformation": "5.34mm",
+        "sensitivity": "97%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.39206251383504,
+          27.983317915547477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-006",
+        "location": "西南山区-区域3",
+        "area": 93,
+        "isUnderForest": false,
+        "riskLevel": "中",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "18.91mm",
+        "sensitivity": "91%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.37976961984538,
+          27.80785575113063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-007",
+        "location": "西南山区-区域3",
+        "area": 209,
+        "isUnderForest": false,
+        "riskLevel": "极高",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "7.54mm",
+        "sensitivity": "18%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.20806546374105,
+          27.82530204682532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-008",
+        "location": "西南山区-区域8",
+        "area": 93,
+        "isUnderForest": false,
+        "riskLevel": "极高",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "9.25mm",
+        "sensitivity": "46%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.29963372226673,
+          27.813902986092444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-009",
+        "location": "西南山区-区域0",
+        "area": 111,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "17.05mm",
+        "sensitivity": "21%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.38267652775892,
+          27.959010704308202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-010",
+        "location": "西南山区-区域9",
+        "area": 81,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "19.35mm",
+        "sensitivity": "98%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.22485127302967,
+          27.803775219498437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-011",
+        "location": "西南山区-区域1",
+        "area": 214,
+        "isUnderForest": false,
+        "riskLevel": "中",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "10.99mm",
+        "sensitivity": "4%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.32540520841442,
+          27.92521700819744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-012",
+        "location": "西南山区-区域0",
+        "area": 175,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "2.01mm",
+        "sensitivity": "46%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.29763131097953,
+          27.921889517820343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-013",
+        "location": "西南山区-区域2",
+        "area": 182,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "正常",
+        "historyDeformation": "19.58mm",
+        "sensitivity": "86%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24494109940954,
+          27.9527703179642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-014",
+        "location": "西南山区-区域8",
+        "area": 199,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "5.58mm",
+        "sensitivity": "71%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.26841264879141,
+          27.941687946878627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-015",
+        "location": "西南山区-区域9",
+        "area": 128,
+        "isUnderForest": true,
+        "riskLevel": "中",
+        "damageLevel": "正常",
+        "historyDeformation": "9.57mm",
+        "sensitivity": "69%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.22513918466404,
+          27.9034194485098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-016",
+        "location": "西南山区-区域0",
+        "area": 166,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "正常",
+        "historyDeformation": "18.34mm",
+        "sensitivity": "56%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.38187377785896,
+          27.803046449489727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-017",
+        "location": "西南山区-区域6",
+        "area": 84,
+        "isUnderForest": true,
+        "riskLevel": "中",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "1.65mm",
+        "sensitivity": "94%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.28414507071217,
+          27.93468328339913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-018",
+        "location": "西南山区-区域4",
+        "area": 207,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "10.11mm",
+        "sensitivity": "95%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.29406017340199,
+          27.907549262159698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-019",
+        "location": "西南山区-区域4",
+        "area": 197,
+        "isUnderForest": true,
+        "riskLevel": "中",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "4.07mm",
+        "sensitivity": "1%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.29612009658999,
+          27.99529243623561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-020",
+        "location": "西南山区-区域4",
+        "area": 226,
+        "isUnderForest": false,
+        "riskLevel": "高",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "19.54mm",
+        "sensitivity": "82%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.35088608158907,
+          27.929884586373333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-021",
+        "location": "西南山区-区域5",
+        "area": 206,
+        "isUnderForest": false,
+        "riskLevel": "极高",
+        "damageLevel": "倒塌",
+        "historyDeformation": "10.25mm",
+        "sensitivity": "52%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.30141026168363,
+          27.9450329998538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-022",
+        "location": "西南山区-区域2",
+        "area": 209,
+        "isUnderForest": false,
+        "riskLevel": "高",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "5.13mm",
+        "sensitivity": "28%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.33839477808422,
+          27.970649956149273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-023",
+        "location": "西南山区-区域2",
+        "area": 186,
+        "isUnderForest": false,
+        "riskLevel": "低",
+        "damageLevel": "正常",
+        "historyDeformation": "8.75mm",
+        "sensitivity": "65%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.28652626048488,
+          27.998759146816155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-024",
+        "location": "西南山区-区域4",
+        "area": 120,
+        "isUnderForest": false,
+        "riskLevel": "高",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "13.30mm",
+        "sensitivity": "16%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.37361314504996,
+          27.84673526906395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-025",
+        "location": "西南山区-区域1",
+        "area": 190,
+        "isUnderForest": false,
+        "riskLevel": "中",
+        "damageLevel": "倒塌",
+        "historyDeformation": "16.41mm",
+        "sensitivity": "62%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.30487396825295,
+          27.99786408809666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-026",
+        "location": "西南山区-区域8",
+        "area": 186,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "倒塌",
+        "historyDeformation": "0.41mm",
+        "sensitivity": "75%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.36292211102149,
+          27.973572696864654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-027",
+        "location": "西南山区-区域3",
+        "area": 184,
+        "isUnderForest": false,
+        "riskLevel": "高",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "14.33mm",
+        "sensitivity": "66%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.26753425418596,
+          27.93521652863502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-028",
+        "location": "西南山区-区域2",
+        "area": 110,
+        "isUnderForest": false,
+        "riskLevel": "低",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "19.80mm",
+        "sensitivity": "64%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.37150661390032,
+          27.909558701431564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-029",
+        "location": "西南山区-区域2",
+        "area": 99,
+        "isUnderForest": true,
+        "riskLevel": "中",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "13.88mm",
+        "sensitivity": "69%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.27601380880678,
+          27.89273235079812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-030",
+        "location": "西南山区-区域9",
+        "area": 207,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "0.90mm",
+        "sensitivity": "89%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.34312786249873,
+          27.889854202778437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-031",
+        "location": "西南山区-区域4",
+        "area": 132,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "13.96mm",
+        "sensitivity": "77%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.32636934008879,
+          27.900010079400428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-032",
+        "location": "西南山区-区域2",
+        "area": 129,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "5.17mm",
+        "sensitivity": "60%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.36074930976694,
+          27.935344973707092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-033",
+        "location": "西南山区-区域3",
+        "area": 107,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "14.09mm",
+        "sensitivity": "36%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2873800684002,
+          27.89027568157217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-034",
+        "location": "西南山区-区域8",
+        "area": 97,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "正常",
+        "historyDeformation": "5.24mm",
+        "sensitivity": "7%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.27971063941538,
+          27.932146706135434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-035",
+        "location": "西南山区-区域0",
+        "area": 131,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "19.91mm",
+        "sensitivity": "94%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.27899840371687,
+          27.839584666923205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-036",
+        "location": "西南山区-区域8",
+        "area": 178,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "倒塌",
+        "historyDeformation": "9.31mm",
+        "sensitivity": "29%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.28811391586581,
+          27.92414677435324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-037",
+        "location": "西南山区-区域7",
+        "area": 110,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "11.50mm",
+        "sensitivity": "81%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.25418013261921,
+          27.9816619373514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-038",
+        "location": "西南山区-区域0",
+        "area": 108,
+        "isUnderForest": false,
+        "riskLevel": "极高",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "5.95mm",
+        "sensitivity": "43%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.27927141715077,
+          27.954497133095384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-039",
+        "location": "西南山区-区域4",
+        "area": 128,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "17.90mm",
+        "sensitivity": "33%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.25667966397481,
+          27.918791287943115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-040",
+        "location": "西南山区-区域6",
+        "area": 149,
+        "isUnderForest": false,
+        "riskLevel": "低",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "1.12mm",
+        "sensitivity": "17%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.39127133532855,
+          27.99032889178071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-041",
+        "location": "西南山区-区域9",
+        "area": 203,
+        "isUnderForest": false,
+        "riskLevel": "低",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "14.82mm",
+        "sensitivity": "38%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.22461214636785,
+          27.971707198843223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-042",
+        "location": "西南山区-区域8",
+        "area": 158,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "18.45mm",
+        "sensitivity": "13%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24326407722769,
+          27.922835059034085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-043",
+        "location": "西南山区-区域0",
+        "area": 207,
+        "isUnderForest": false,
+        "riskLevel": "高",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "10.25mm",
+        "sensitivity": "57%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.23530745218606,
+          27.911720955575912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-044",
+        "location": "西南山区-区域3",
+        "area": 215,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "19.41mm",
+        "sensitivity": "19%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.29281581412532,
+          27.84572627229406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-045",
+        "location": "西南山区-区域5",
+        "area": 228,
+        "isUnderForest": false,
+        "riskLevel": "低",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "19.50mm",
+        "sensitivity": "67%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24542190859358,
+          27.904438175267988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-046",
+        "location": "西南山区-区域6",
+        "area": 92,
+        "isUnderForest": false,
+        "riskLevel": "中",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "4.02mm",
+        "sensitivity": "85%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.35979093596757,
+          27.99861711504343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-047",
+        "location": "西南山区-区域9",
+        "area": 114,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "倒塌",
+        "historyDeformation": "19.49mm",
+        "sensitivity": "31%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24162287398538,
+          27.88570398095952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-048",
+        "location": "西南山区-区域0",
+        "area": 191,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "2.23mm",
+        "sensitivity": "49%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2806382611396,
+          27.823736529711212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-049",
+        "location": "西南山区-区域0",
+        "area": 156,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "正常",
+        "historyDeformation": "3.70mm",
+        "sensitivity": "63%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.28305876359457,
+          27.869015462694225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-050",
+        "location": "西南山区-区域3",
+        "area": 183,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "倒塌",
+        "historyDeformation": "11.75mm",
+        "sensitivity": "16%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.27986254476897,
+          27.963482715835912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-051",
+        "location": "西南山区-区域7",
+        "area": 198,
+        "isUnderForest": false,
+        "riskLevel": "低",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "2.95mm",
+        "sensitivity": "19%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.21755139026467,
+          27.88598221108158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-052",
+        "location": "西南山区-区域9",
+        "area": 115,
+        "isUnderForest": true,
+        "riskLevel": "中",
+        "damageLevel": "正常",
+        "historyDeformation": "18.80mm",
+        "sensitivity": "75%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2374342476866,
+          27.854300958445382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-053",
+        "location": "西南山区-区域8",
+        "area": 88,
+        "isUnderForest": false,
+        "riskLevel": "极高",
+        "damageLevel": "倒塌",
+        "historyDeformation": "7.26mm",
+        "sensitivity": "92%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.23432167514011,
+          27.939244488440707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-054",
+        "location": "西南山区-区域2",
+        "area": 213,
+        "isUnderForest": false,
+        "riskLevel": "中",
+        "damageLevel": "倒塌",
+        "historyDeformation": "14.97mm",
+        "sensitivity": "37%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.33532915367462,
+          27.900192636975664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-055",
+        "location": "西南山区-区域2",
+        "area": 133,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "正常",
+        "historyDeformation": "6.78mm",
+        "sensitivity": "54%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.22075233420625,
+          27.898512488079536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-056",
+        "location": "西南山区-区域5",
+        "area": 189,
+        "isUnderForest": false,
+        "riskLevel": "极高",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "12.04mm",
+        "sensitivity": "41%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.25121008441866,
+          27.828097603813973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-057",
+        "location": "西南山区-区域1",
+        "area": 122,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "倒塌",
+        "historyDeformation": "13.83mm",
+        "sensitivity": "82%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.23374261486869,
+          27.917788859151916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-058",
+        "location": "西南山区-区域3",
+        "area": 125,
+        "isUnderForest": false,
+        "riskLevel": "中",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "12.78mm",
+        "sensitivity": "53%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.22148057607959,
+          27.936600718288265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-059",
+        "location": "西南山区-区域0",
+        "area": 135,
+        "isUnderForest": false,
+        "riskLevel": "高",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "15.29mm",
+        "sensitivity": "54%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.32652138516094,
+          27.843905880992978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-060",
+        "location": "西南山区-区域9",
+        "area": 165,
+        "isUnderForest": false,
+        "riskLevel": "中",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "8.11mm",
+        "sensitivity": "56%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.23095720842171,
+          27.979413492260882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-061",
+        "location": "西南山区-区域3",
+        "area": 109,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "正常",
+        "historyDeformation": "6.42mm",
+        "sensitivity": "12%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.29505018126866,
+          27.916867053165962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-062",
+        "location": "西南山区-区域6",
+        "area": 138,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "19.02mm",
+        "sensitivity": "66%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.35256530180007,
+          27.890905467441645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-063",
+        "location": "西南山区-区域2",
+        "area": 160,
+        "isUnderForest": false,
+        "riskLevel": "中",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "17.42mm",
+        "sensitivity": "58%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.36225696988795,
+          27.91750340322814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-064",
+        "location": "西南山区-区域6",
+        "area": 197,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "18.51mm",
+        "sensitivity": "0%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.39827741841768,
+          27.81017707317065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-065",
+        "location": "西南山区-区域2",
+        "area": 178,
+        "isUnderForest": false,
+        "riskLevel": "极高",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "5.16mm",
+        "sensitivity": "42%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.346733562897,
+          27.896149078248325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-066",
+        "location": "西南山区-区域8",
+        "area": 140,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "倒塌",
+        "historyDeformation": "13.45mm",
+        "sensitivity": "41%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2985013086059,
+          27.99593550940067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-067",
+        "location": "西南山区-区域3",
+        "area": 184,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "正常",
+        "historyDeformation": "18.65mm",
+        "sensitivity": "11%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.391168002904,
+          27.933936076429372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-068",
+        "location": "西南山区-区域8",
+        "area": 225,
+        "isUnderForest": true,
+        "riskLevel": "中",
+        "damageLevel": "倒塌",
+        "historyDeformation": "2.22mm",
+        "sensitivity": "11%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.29758368874488,
+          27.833953053754197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-069",
+        "location": "西南山区-区域1",
+        "area": 190,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "15.49mm",
+        "sensitivity": "10%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3482257780439,
+          27.98366149176171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-070",
+        "location": "西南山区-区域6",
+        "area": 121,
+        "isUnderForest": false,
+        "riskLevel": "极高",
+        "damageLevel": "正常",
+        "historyDeformation": "11.56mm",
+        "sensitivity": "24%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.21735293352468,
+          27.9488666936942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-071",
+        "location": "西南山区-区域7",
+        "area": 170,
+        "isUnderForest": false,
+        "riskLevel": "中",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "6.36mm",
+        "sensitivity": "3%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3184087807472,
+          27.860996577867656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-072",
+        "location": "西南山区-区域6",
+        "area": 105,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "正常",
+        "historyDeformation": "6.62mm",
+        "sensitivity": "26%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.27781787420678,
+          27.852302954967584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-073",
+        "location": "西南山区-区域6",
+        "area": 221,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "16.91mm",
+        "sensitivity": "23%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.21126957194981,
+          27.883363441108504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-074",
+        "location": "西南山区-区域4",
+        "area": 141,
+        "isUnderForest": true,
+        "riskLevel": "中",
+        "damageLevel": "中度损毁",
+        "historyDeformation": "3.61mm",
+        "sensitivity": "48%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2496965137787,
+          27.995162367470066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-075",
+        "location": "西南山区-区域4",
+        "area": 191,
+        "isUnderForest": true,
+        "riskLevel": "中",
+        "damageLevel": "正常",
+        "historyDeformation": "6.17mm",
+        "sensitivity": "59%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.37860440470295,
+          27.9750948070517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-076",
+        "location": "西南山区-区域7",
+        "area": 120,
+        "isUnderForest": true,
+        "riskLevel": "极高",
+        "damageLevel": "倒塌",
+        "historyDeformation": "16.72mm",
+        "sensitivity": "77%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.36992747815633,
+          27.841825997264248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-077",
+        "location": "西南山区-区域3",
+        "area": 210,
+        "isUnderForest": false,
+        "riskLevel": "极高",
+        "damageLevel": "正常",
+        "historyDeformation": "19.70mm",
+        "sensitivity": "33%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2597089616898,
+          27.872496577036095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-078",
+        "location": "西南山区-区域5",
+        "area": 138,
+        "isUnderForest": true,
+        "riskLevel": "低",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "19.66mm",
+        "sensitivity": "15%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.38029893124546,
+          27.80096425303712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-079",
+        "location": "西南山区-区域1",
+        "area": 166,
+        "isUnderForest": true,
+        "riskLevel": "中",
+        "damageLevel": "严重损毁",
+        "historyDeformation": "4.97mm",
+        "sensitivity": "35%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.28374971662878,
+          27.876785592649618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "H-080",
+        "location": "西南山区-区域5",
+        "area": 125,
+        "isUnderForest": true,
+        "riskLevel": "高",
+        "damageLevel": "轻微损毁",
+        "historyDeformation": "1.66mm",
+        "sensitivity": "92%"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.31669413919703,
+          27.858282888646574
+        ]
+      }
+    }
+  ]
+}

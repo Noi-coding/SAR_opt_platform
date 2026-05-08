@@ -91,7 +91,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, inject, watch } from 'vue'
+import { ref, computed, inject, onMounted, watch } from 'vue'
 
 const props = defineProps({
   sceneType: {
@@ -104,11 +104,16 @@ const props = defineProps({
   }
 })
 
-const layerState = ref({
-  optical: true,
-  sar: false,
-  houses: true,
-  heatmap: false
+const layerState = inject('layerState') as any
+const allStats = ref<any>(null)
+
+onMounted(async () => {
+  try {
+    const response = await fetch('/mock/stats.json')
+    allStats.value = await response.json()
+  } catch (error) {
+    console.error('Error loading stats:', error)
+  }
 })
 
 const sceneTitle = computed(() => {
@@ -121,23 +126,13 @@ const sceneTitle = computed(() => {
 })
 
 const stats = computed(() => {
-  if (props.sceneType === 'fire') {
-    return { affectedHouses: 124, forestHouses: 86, highRiskCount: 12 }
-  } else if (props.sceneType === 'rain') {
-    return { affectedHouses: 256, forestHouses: 112, highRiskCount: 34 }
-  } else {
-    return { affectedHouses: 89, forestHouses: 45, highRiskCount: 56 }
-  }
+  if (!allStats.value) return { affectedHouses: 0, forestHouses: 0, highRiskCount: 0 }
+  return allStats.value[props.sceneType] || { affectedHouses: 0, forestHouses: 0, highRiskCount: 0 }
 })
 
 const aiInsightText = computed(() => {
-  if (props.sceneType === 'fire') {
-    return 'SAR 引擎已穿透烟雾，识别出火线正向西南方向蔓延，涉及 15 栋隐匿林下房屋。'
-  } else if (props.sceneType === 'rain') {
-    return '利用 SAR 反演林下 DEM 评估，预计未来 3 小时内低洼区淹没深度将达 1.5 米。'
-  } else {
-    return 'D-InSAR 捕捉到地表形变异常（累计 15mm），滑坡隐患点已精准锁定。'
-  }
+  if (!allStats.value) return 'AI 正在计算中...'
+  return allStats.value[props.sceneType]?.aiInsight || '正在进行全域扫描...'
 })
 
 const getRiskTagType = (level: string) => {
@@ -147,8 +142,7 @@ const getRiskTagType = (level: string) => {
 }
 
 const toggleLayer = (layer: string) => {
-  console.log('Toggle layer:', layer)
-  // 这里的逻辑可以通过事件发送给地图组件
+  console.log('Layer state updated:', layer, layerState.value[layer])
 }
 </script>
 

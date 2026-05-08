@@ -20,15 +20,15 @@
     <div class="ai-engine-status" v-if="!isCollapsed">
       <div class="engine-title">AI 智能计算引擎</div>
       <div class="engine-item">
-        <div class="dot active"></div>
+        <div class="dot active pulse-dot"></div>
         <span>林下房屋识别引擎</span>
       </div>
       <div class="engine-item">
-        <div class="dot active"></div>
+        <div class="dot active pulse-dot"></div>
         <span>风险健康档案引擎</span>
       </div>
       <div class="engine-item">
-        <div class="dot active"></div>
+        <div class="dot active pulse-dot"></div>
         <span>多灾种判读引擎</span>
       </div>
     </div>
