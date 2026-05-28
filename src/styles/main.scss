@@ -1,57 +1,166 @@
+/* 森安遥视平台全局样式 - 深色数字孪生指挥中心风格 */
+
 :root {
-  --bg-color: #000b1d;
-  --panel-bg: rgba(0, 20, 50, 0.8);
-  --border-color: #004a8d;
-  --text-primary: #ffffff;
-  --text-secondary: #00d2ff;
-  --accent-color: #00a2ff;
+  /* 主色调 */
+  --bg-primary: #07111F;
+  --bg-secondary: #0B1628;
+  --bg-tertiary: #101C32;
+  
+  /* 科技蓝青渐变色 */
+  --accent-cyan: #00D5FF;
+  --accent-blue: #2F80FF;
+  --accent-purple: #7C5CFF;
+  
+  /* 风险等级色 */
+  --risk-low: #00ff88;
+  --risk-medium: #ffcc00;
+  --risk-high: #ff8800;
+  --risk-extreme: #ff3333;
+  
+  /* 文字色 */
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(255, 255, 255, 0.8);
+  --text-muted: rgba(255, 255, 255, 0.5);
+  
+  /* 边框色 */
+  --border-light: rgba(255, 255, 255, 0.12);
+  --border-medium: rgba(255, 255, 255, 0.2);
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
-  background-color: var(--bg-color);
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  background-color: var(--bg-primary);
   color: var(--text-primary);
-  user-select: none;
 }
 
-/* 隐藏 Cesium 版权信息 */
-.cesium-viewer-bottom {
-  display: none !important;
+/* 玻璃拟态 */
+.glass-panel {
+  background: rgba(16, 28, 50, 0.7) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid var(--border-light) !important;
+  border-radius: 12px !important;
 }
 
-/* 全局滚动条样式 */
+/* Element Plus 样式覆盖 */
+.el-card {
+  background: rgba(16, 28, 50, 0.7) !important;
+  backdrop-filter: blur(12px) !important;
+  border: 1px solid var(--border-light) !important;
+  border-radius: 12px !important;
+}
+
+.el-card__header {
+  background: linear-gradient(180deg, rgba(47, 128, 255, 0.15), transparent) !important;
+  border-bottom: 1px solid var(--border-light) !important;
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+.el-button {
+  border-radius: 8px !important;
+  transition: all 0.3s !important;
+}
+
+.el-button--primary {
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue)) !important;
+  border: none !important;
+  box-shadow: 0 0 20px rgba(0, 213, 255, 0.3);
+}
+
+.el-button--primary:hover {
+  box-shadow: 0 0 30px rgba(0, 213, 255, 0.5);
+  transform: translateY(-1px);
+}
+
+/* 滚动条 */
 ::-webkit-scrollbar {
-  width: 4px;
-  height: 4px;
+  width: 6px;
+  height: 6px;
 }
-::-webkit-scrollbar-thumb {
-  background: var(--border-color);
-  border-radius: 2px;
-}
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
 
-/* Element Plus 科技风重置 */
-.el-card {
-  background-color: var(--panel-bg) !important;
-  border: 1px solid var(--border-color) !important;
-  color: var(--text-primary) !important;
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 213, 255, 0.3);
+  border-radius: 3px;
 }
 
-.el-button--primary {
-  background-color: var(--accent-color) !important;
-  border-color: var(--accent-color) !important;
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 213, 255, 0.5);
 }
 
+/* 动画 */
 @keyframes pulse {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.5); opacity: 0.7; }
-  100% { transform: scale(1); opacity: 1; }
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 5px var(--accent-cyan); }
+  50% { box-shadow: 0 0 20px var(--accent-cyan), 0 0 30px var(--accent-blue); }
 }
 
 .pulse-dot {
   animation: pulse 2s infinite ease-in-out;
+}
+
+.glow-border {
+  animation: glow 3s infinite;
+}
+
+/* 文字渐变 */
+.text-gradient {
+  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 风险等级标签 */
+.risk-tag {
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.risk-low {
+  background: rgba(0, 255, 136, 0.15);
+  color: var(--risk-low);
+  border: 1px solid var(--risk-low);
+}
+
+.risk-medium {
+  background: rgba(255, 204, 0, 0.15);
+  color: var(--risk-medium);
+  border: 1px solid var(--risk-medium);
+}
+
+.risk-high {
+  background: rgba(255, 136, 0, 0.15);
+  color: var(--risk-high);
+  border: 1px solid var(--risk-high);
+}
+
+.risk-extreme {
+  background: rgba(255, 51, 51, 0.15);
+  color: var(--risk-extreme);
+  border: 1px solid var(--risk-extreme);
+}
+
+/* 隐藏 Cesium 版权 */
+.cesium-viewer-bottom {
+  display: none !important;
 }
