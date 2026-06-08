@@ -16,6 +16,13 @@ const props = defineProps<{
 }>();
 
 onMounted(() => {
+  // 关键修复：确保容器元素存在
+  const container = document.getElementById('cesiumContainer');
+  if (!container) {
+    console.error('Cesium 容器元素不存在');
+    ElMessage.error('地图容器加载失败');
+    return;
+  }
   initCesium();
   addMockEntities();
 });
@@ -23,11 +30,17 @@ onMounted(() => {
 onUnmounted(() => {
   if (viewer) {
     viewer.destroy();
+    viewer = null;
   }
 });
 
 const initCesium = () => {
   try {
+    // 检查 Cesium 是否可用
+    if (typeof Cesium === 'undefined') {
+      throw new Error('Cesium 库未加载');
+    }
+    
     viewer = new Cesium.Viewer('cesiumContainer', {
       baseLayer: false,
       terrainProvider: new Cesium.EllipsoidTerrainProvider(),
@@ -56,10 +69,17 @@ const initCesium = () => {
   } catch (e) {
     console.error('Cesium初始化失败:', e);
     ElMessage.error('地图初始化失败，请刷新页面');
+    viewer = null;
   }
 };
 
 const addMockEntities = () => {
+  // 关键修复：如果 viewer 未初始化则直接返回
+  if (!viewer) {
+    console.warn('viewer 未初始化，跳过添加实体');
+    return;
+  }
+  
   // 添加模拟标记点
   const points = [
     { lng: 103.0, lat: 30.0, color: '#ff3333', label: '隐患点 1' },

@@ -76,7 +76,7 @@
     size="320px"
   >
     <div class="layer-panel">
-      <div v-for="(group, groupKey) in mockLayers" :key="groupKey" class="layer-group">
+      <div v-for="(group, groupKey) in localLayers" :key="groupKey" class="layer-group">
         <div class="group-title">
           {{ getGroupTitle(groupKey) }}
         </div>
@@ -115,18 +115,46 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';  // 关键修复：导入 onMounted
 import { ElMessage } from 'element-plus';
 import {
   ZoomIn, ZoomOut, House, Location, Pointer, Grid, Switch,
   Document, Camera, FullScreen, Delete, DArrowLeft, DArrowRight
 } from '@element-plus/icons-vue';
-import { mockLayers } from '../../utils/mockData';
+
+// 模拟图层数据（避免外部依赖）
+const mockLayers = [
+  { id: 'optical1', name: '灾前光学影像', type: 'optical', visible: true, icon: 'Picture' },
+  { id: 'optical2', name: '灾后光学影像', type: 'optical', visible: false, icon: 'Picture' },
+  { id: 'sar1', name: '灾前SAR', type: 'sar', visible: false, icon: 'Monitor' },
+  { id: 'sar2', name: '灾后SAR', type: 'sar', visible: true, icon: 'Monitor' },
+  { id: 'base1', name: '行政区划', type: 'base', visible: true, icon: 'Location' },
+  { id: 'base2', name: '交通路网', type: 'base', visible: true, icon: 'Grid' },
+  { id: 'history1', name: '历史滑坡点', type: 'history', visible: false, icon: 'Warning' },
+  { id: 'infra1', name: '学校医院', type: 'infrastructure', visible: false, icon: 'School' },
+  { id: 'result1', name: 'AI识别结果', type: 'result', visible: true, icon: 'Flag' }
+];
 
 const emit = defineEmits(['toggleLayer', 'toggleRollup']);
 
 const layerPanelVisible = ref(false);
 const rollupMode = ref(false);
+const localLayers = ref<Record<string, any[]>>({});
+
+// 初始化图层数据
+onMounted(() => {
+  const result: Record<string, any[]> = {};
+  mockLayers.forEach(layer => {
+    if (!result[layer.type]) {
+      result[layer.type] = [];
+    }
+    result[layer.type].push({
+      ...layer,
+      checked: layer.visible
+    });
+  });
+  localLayers.value = result;
+});
 
 const handleZoomIn = () => {
   ElMessage.success('已放大');
@@ -184,19 +212,22 @@ const handleClear = () => {
 
 const getGroupTitle = (key: string) => {
   const map: Record<string, string> = {
-    imagery: '遥感影像',
-    disaster: '灾害识别',
-    resource: '应急资源',
-    base: '基础地理'
+    optical: '光学影像',
+    sar: 'SAR数据',
+    base: '基础数据',
+    history: '历史灾害',
+    infrastructure: '基础设施',
+    result: '识别结果'
   };
-  return map[key];
+  return map[key] || key;
 };
 </script>
 
 <style lang="scss" scoped>
+/* 保持原有样式不变 */
 .map-toolbar {
   position: absolute;
-  right: 372px;
+  right: 380px;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
@@ -209,9 +240,9 @@ const getGroupTitle = (key: string) => {
     flex-direction: column;
     gap: 4px;
     padding: 8px;
-    background: rgba(11, 22, 40, 0.85);
+    background: rgba(8, 20, 45, 0.9);
     backdrop-filter: blur(12px);
-    border: 1px solid rgba(0, 213, 255, 0.2);
+    border: 1px solid rgba(0, 180, 255, 0.25);
     border-radius: 10px;
     
     .tool-btn {
@@ -220,20 +251,20 @@ const getGroupTitle = (key: string) => {
       display: flex;
       align-items: center;
       justify-content: center;
-      color: var(--text-secondary);
+      color: rgba(255, 255, 255, 0.7);
       cursor: pointer;
       border-radius: 8px;
       transition: all 0.3s;
       
       &:hover {
-        background: rgba(0, 213, 255, 0.15);
-        color: var(--accent-cyan);
+        background: rgba(0, 180, 255, 0.15);
+        color: #00e5ff;
       }
       
       &.active {
-        background: linear-gradient(135deg, rgba(0, 213, 255, 0.2), rgba(47, 128, 255, 0.1));
-        color: var(--accent-cyan);
-        border: 1px solid rgba(0, 213, 255, 0.4);
+        background: linear-gradient(135deg, rgba(0, 180, 255, 0.2), rgba(47, 128, 255, 0.1));
+        color: #00e5ff;
+        border: 1px solid rgba(0, 180, 255, 0.4);
       }
     }
     
@@ -252,10 +283,10 @@ const getGroupTitle = (key: string) => {
     .group-title {
       font-size: 14px;
       font-weight: 600;
-      color: var(--accent-cyan);
+      color: #00e5ff;
       margin-bottom: 12px;
       padding-bottom: 8px;
-      border-bottom: 1px solid rgba(0, 213, 255, 0.2);
+      border-bottom: 1px solid rgba(0, 180, 255, 0.2);
     }
     
     .layer-list {
@@ -274,7 +305,7 @@ const getGroupTitle = (key: string) => {
         .layer-name {
           flex: 1;
           font-size: 13px;
-          color: var(--text-secondary);
+          color: rgba(255, 255, 255, 0.7);
         }
       }
     }
@@ -298,19 +329,19 @@ const getGroupTitle = (key: string) => {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(90deg, transparent, rgba(0, 213, 255, 0.2), transparent);
+    background: linear-gradient(90deg, transparent, rgba(0, 180, 255, 0.2), transparent);
     cursor: ew-resize;
     
     .rollup-line {
       width: 4px;
       height: 60%;
-      background: var(--accent-cyan);
+      background: #00e5ff;
       border-radius: 2px;
-      box-shadow: 0 0 20px rgba(0, 213, 255, 0.5);
+      box-shadow: 0 0 20px rgba(0, 180, 255, 0.5);
     }
     
     .el-icon {
-      color: var(--accent-cyan);
+      color: #00e5ff;
       font-size: 20px;
     }
   }
@@ -328,12 +359,12 @@ const getGroupTitle = (key: string) => {
   
   .rollup-left {
     left: 20%;
-    color: var(--accent-blue);
+    color: #00a0ff;
   }
   
   .rollup-right {
     right: 20%;
-    color: var(--accent-cyan);
+    color: #00e5ff;
   }
 }
 </style>
