@@ -1,9 +1,9 @@
 <template>
-  <Home />
+  <NewHome />
 </template>
 
 <script setup lang="ts">
-import Home from './views/Home.vue'
+import NewHome from './views/NewHome.vue'
 </script>
 
 <style>
